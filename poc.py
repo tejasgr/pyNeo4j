@@ -83,7 +83,7 @@ if __name__ == "__main__":
     # Aura queries use an encrypted connection using the "neo4j+s" URI scheme
     uri = "neo4j+s://bc49b0fd.databases.neo4j.io"
     user = "neo4j"
-    password = "_bKipQddTcRzLZfOqQujbqhKcWn15-F51q1aXlq1Y64"
+    password = ""
     app = App(uri, user, password)
     # app.create_friendship("Alice", "David")
     # app.find_person("Alice")
